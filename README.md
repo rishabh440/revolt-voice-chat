@@ -51,22 +51,6 @@ This project demonstrates a complete implementation of a voice-based AI assistan
    # Open http://localhost:3000
    ```
 
-## 🎥 Demo Video Requirements
-
-Your demo video should showcase:
-
-1. **Natural Conversation**: Ask Rev about Revolt Motors products
-2. **Interruption Feature**: Interrupt Rev mid-response by clicking the interrupt button
-3. **Speech-to-Text**: Show that your actual words appear in the chat
-4. **Low Latency**: Demonstrate quick response times (1-2 seconds)
-5. **Revolt Motors Focus**: Show how Rev redirects off-topic questions
-
-**Example conversation flow**:
-- "Tell me about Revolt Motors"
-- "What's special about the RV400?"
-- [Interrupt Rev while speaking]
-- "What about charging options?"
-
 ## 🎮 How to Use
 
 1. **Launch**: Open http://localhost:3000 in your browser
