@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talk to Rev - Revolt Motors Voice Chat</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Talk to Rev</h1>
+        <p class="subtitle">Your Revolt Motors Voice Assistant</p>
+      </div>
+
+      <div class="chat-interface">
+        <div class="status-indicator">
+          <div class="status-dot" id="statusDot"></div>
+          <span class="status-text" id="statusText">Not connected</span>
+        </div>
+
+        <div class="voice-controls">
+          <button id="startBtn" class="voice-btn start-btn">
+            <div class="btn-icon">🎤</div>
+            <span>Start Talking</span>
+          </button>
+
+          <button id="stopBtn" class="voice-btn stop-btn" disabled>
+            <div class="btn-icon">⏹️</div>
+            <span>Stop</span>
+          </button>
+
+          <button id="interruptBtn" class="voice-btn interrupt-btn" disabled>
+            <div class="btn-icon">✋</div>
+            <span>Interrupt</span>
+          </button>
+        </div>
+
+        <div class="audio-visualizer">
+          <canvas id="visualizer" width="300" height="100"></canvas>
+        </div>
+
+        <div class="conversation-log" id="conversationLog">
+          <div class="message bot-message">
+            <span class="speaker">Rev:</span>
+            <span class="text"
+              >Hello! I'm Rev, your Revolt Motors assistant. How can I help you
+              today?</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
